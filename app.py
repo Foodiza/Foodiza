@@ -163,3 +163,13 @@ st.write("Healthy & Maida-Free: Our meals are free of Maida and focus on health.
 st.write("Demo Lunch Box: Want to try before you decide? We offer demo lunch boxes so you can taste the goodness before committing.")
 st.markdown("---")
 st.markdown("Thank you for choosing Foodiza! Your satisfaction is our priority.")
+st.markdown("---")
+
+
+# Contact Us Section
+st.header("📞 Contact Us")
+st.write("If you have any questions or need assistance, feel free to reach out to us through any of the following channels:")
+
+# Display contact details
+st.markdown("**Phone Number:** +91 8602432586")  # Replace with your phone number
+st.markdown("**Email:** [foodiza.0@gmail.com](mailto:foodiza.0@gmail.com)")
