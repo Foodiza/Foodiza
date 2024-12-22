@@ -4,9 +4,14 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from twilio.rest import Client
-import os
 
-os.system("pip install twilio")
+try:
+    from twilio.rest import Client
+except ModuleNotFoundError:
+    import os
+    os.system("pip install twilio")
+    from twilio.rest import Client
+
 
 # Set page configuration
 st.set_page_config(page_title="Foodiza - Tiffin Service", layout="wide")
