@@ -32,7 +32,7 @@ st.markdown("""
 menu_data = {
     "Lunch Box": {"items": ["Paneer Butter Masala", "Dal Tadka", "4 Chapatis", "Sabzi", "Dal", "Rice"], "price": 2200},
     "Mini Lunch Box": {"items": ["Chapati", "Sabzi", "Dal", "Chawal"], "price": 1500},
-    "Gym Lunch Box": {"items": ["Eggs", "Chicken", "Sprouts", "Fruits", "Paneer"], "price": 1000},
+    "Gym Lunch Box": {"items": ["Eggs", "Sprouts", "Fruits", "Paneer"], "price": 1000},
     "Special Meal Box": {"items": ["Shahi Paneer", "Mushroom", "Shahi Dal Tadka", "Egg Curry"], "price": 3500}
 }
 
