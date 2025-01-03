@@ -171,5 +171,5 @@ st.header("📞 Contact Us")
 st.write("If you have any questions or need assistance, feel free to reach out to us through any of the following channels:")
 
 # Display contact details
-st.markdown("**Phone Number:** +91 8602432586")  # Replace with your phone number
+st.markdown("**Phone Number:** +91 9111097702")  # Replace with your phone number
 st.markdown("**Email:** [foodiza.0@gmail.com](mailto:foodiza.0@gmail.com)")
